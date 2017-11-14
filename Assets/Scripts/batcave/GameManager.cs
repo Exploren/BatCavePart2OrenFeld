@@ -17,6 +17,7 @@ public class GameManager : MonoSingleton<GameManager> {
     [SerializeField] GameObject startGameUi;
     [SerializeField] GameObject gameOverUi;
     [SerializeField] EndlessWorldScroller[] scrollersToUpdate;
+	[SerializeField] AudioEvent gameStartedSound;
 
     [Header("Read Only")]
     [SerializeField] bool hasStarted;
@@ -77,8 +78,6 @@ public class GameManager : MonoSingleton<GameManager> {
             ResetGame();
             return false;
         }
-
-        // EXERCISE: Play game started audio event.
 
         hasStarted = true;
         isGameOver = false;
