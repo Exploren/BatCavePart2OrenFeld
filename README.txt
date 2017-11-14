@@ -1,4 +1,4 @@
-Submitted by:
-<student name> <id>
+Submitted by: 
+<Oren Feld> <203250675>
 
-Extra features implemented:
+ Extra features implemented:
